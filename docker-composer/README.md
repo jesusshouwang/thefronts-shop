@@ -1,6 +1,6 @@
 > 如果不清楚如何安装docker-compose的，可以看下《centos安装docker》文档
 
-1.在文件编辑器上，使用全局替换的方式，将文件夹下的所有 `192.168.1.46`替换为服务器的ip
+1.在文件编辑器上，使用全局替换的方式，将文件夹下的所有 `10.147.18.211`替换为服务器的ip
 
 2.将本目录所有文件及文件夹打包上传到服务器，效果如图所示
 
@@ -26,14 +26,14 @@ docker-compose up -d --build
 
 5.各个端访问路径及其密码
 
-请自行192.168.1.46替换为服务器ip
+请自行10.147.18.211替换为服务器ip
 
  - mysql: 使用数据库连接工具进行连接， 端口3306 账号及密码 root/root
- - minio: http://192.168.1.46:9000 账号及密码 admin/admin123456
+ - minio: http://10.147.18.211:9000 账号及密码 admin/admin123456
  - redis: 端口6379，没有密码
- - nacos: http://192.168.1.46:8848/nacos 账号及密码 nacos/nacos
- - kibana: http://192.168.1.46:5601
- - rocketmq-console：http://192.168.1.46:8180
+ - nacos: http://10.147.18.211:8848/nacos 账号及密码 nacos/nacos
+ - kibana: http://10.147.18.211:5601
+ - rocketmq-console：http://10.147.18.211:8180
 
 
 6.访问minio管理页面，右下角有个加号，创建存储区域(create bucker) 名为`mall4cloud`
@@ -52,7 +52,7 @@ docker-compose up -d --build
 
 根据自己本地ip地址打开控制台，如下界面
 
-http://192.168.1.46:5601/app/dev_tools#/console
+http://10.147.18.211:5601/app/dev_tools#/console
 
 ![image-20210621114010421](../img/中间件安装/es新建索引-1.png)
 

@@ -51,7 +51,7 @@ services:
       - MODE=standalone
       - PREFER_HOST_MODE=hostname
       - SPRING_DATASOURCE_PLATFORM=mysql
-      - MYSQL_SERVICE_HOST=192.168.1.46
+      - MYSQL_SERVICE_HOST=10.147.18.211
       - MYSQL_SERVICE_DB_NAME=nacos
       - MYSQL_SERVICE_USER=root
       - MYSQL_SERVICE_PASSWORD=root
@@ -69,7 +69,7 @@ services:
     ports:
       - 8091:8091
     environment:
-      - SEATA_IP=192.168.1.46
+      - SEATA_IP=10.147.18.211
       - SEATA_CONFIG_NAME=file:/root/seata-config/registry
     volumes:
       - ./seata:/root/seata-config
@@ -107,7 +107,7 @@ services:
     ports:
       - 11111:11111
     environment:
-      - SEATA_IP=192.168.1.46
+      - SEATA_IP=10.147.18.211
     volumes:
       - ./canal/conf/example:/home/admin/canal-server/conf/example
       - ./canal/conf/canal.properties:/home/admin/canal-server/conf/canal.properties
