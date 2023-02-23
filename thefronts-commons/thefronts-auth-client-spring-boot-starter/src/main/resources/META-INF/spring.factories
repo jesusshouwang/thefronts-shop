@@ -1,0 +1,2 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+cn.thefronts.oauth2.common.AuthClientAutoConfiguration

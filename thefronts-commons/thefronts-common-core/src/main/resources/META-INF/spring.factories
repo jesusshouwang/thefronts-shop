@@ -1,0 +1,7 @@
+org.springframework.context.ApplicationContextInitializer=\
+cn.thefronts.common.config.BannerInitializer
+
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+cn.thefronts.common.feign.fallback.UserServiceFallbackFactory,\
+cn.thefronts.common.lock.LockAspect,\
+cn.thefronts.common.utils.SpringUtil

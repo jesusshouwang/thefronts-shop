@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>central-platform</artifactId>
+        <groupId>cn.thefronts</groupId>
+        <version>1.0.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>thefronts-commons</artifactId>
+    <packaging>pom</packaging>
+
+    <description>通用组件</description>
+    <modules>
+        <module>thefronts-log-spring-boot-starter</module>
+        <module>thefronts-common-core</module>
+        <module>thefronts-common-spring-boot-starter</module>
+        <module>thefronts-db-spring-boot-starter</module>
+        <module>thefronts-elasticsearch-spring-boot-starter</module>
+        <module>thefronts-loadbalance-spring-boot-starter</module>
+        <module>thefronts-oss-spring-boot-starter</module>
+        <module>thefronts-redis-spring-boot-starter</module>
+        <module>thefronts-sentinel-spring-boot-starter</module>
+        <module>thefronts-swagger2-spring-boot-starter</module>
+        <module>thefronts-zookeeper-spring-boot-starter</module>
+        <module>thefronts-auth-client-spring-boot-starter</module>
+    </modules>
+
+
+</project>

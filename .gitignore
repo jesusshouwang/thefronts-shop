@@ -1,0 +1,9 @@
+.idea/
+logs/
+target/
+.txlcn/
+
+/*/target/
+
+*.iml
+*.versionsBackup

@@ -1,0 +1,16 @@
+server:
+  port: 6500
+
+spring:
+  application:
+    name: thefronts-admin
+  security:
+    user:
+      name: 'thefronts'
+      password: 'thefronts'
+  cloud:
+    nacos:
+      discovery:
+        metadata:
+          user.name: ${spring.security.user.name}
+          user.password: ${spring.security.user.password}

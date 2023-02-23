@@ -1,0 +1,2 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+cn.thefronts.common.swagger2.SwaggerAutoConfiguration
