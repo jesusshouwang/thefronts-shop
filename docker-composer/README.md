@@ -29,7 +29,7 @@ docker-compose up -d --build
 请自行10.147.18.211替换为服务器ip
 
  - mysql: 使用数据库连接工具进行连接， 端口3306 账号及密码 root/root
- - minio: http://10.147.18.211:9000 账号及密码 admin/admin123456
+ - minio: http://10.147.18.211:9000 账号及密码 thefronts/thefronts123456
  - redis: 端口6379，没有密码
  - nacos: http://10.147.18.211:8848/nacos 账号及密码 nacos/nacos
  - kibana: http://10.147.18.211:5601

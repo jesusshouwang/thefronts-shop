@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: jdbc:mysql://${zlt.datasource.ip}:3306/user-center?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false&zeroDateTimeBehavior=convertToNull&serverTimezone=Asia/Shanghai
-    username: ${zlt.datasource.username}
-    password: ${zlt.datasource.password}
+    url: jdbc:mysql://${thefronts.datasource.ip}:3306/user-center?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false&zeroDateTimeBehavior=convertToNull&serverTimezone=Asia/Shanghai
+    username: ${thefronts.datasource.username}
+    password: ${thefronts.datasource.password}
     driver-class-name: com.mysql.cj.jdbc.Driver
 
 mybatis-plus:
@@ -13,7 +13,7 @@ mybatis-plus:
     db-config:
       id-type: auto
 
-zlt:
+thefronts:
   swagger:
     enabled: true
     title: 用户中心
@@ -44,6 +44,6 @@ zlt:
 #    log-type: db
 #    datasource:
 #      driver-class-name: com.mysql.cj.jdbc.Driver
-#      jdbc-url: jdbc:mysql://${zlt.datasource.ip}:3306/logger-center?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false&zeroDateTimeBehavior=convertToNull&serverTimezone=Asia/Shanghai
-#      username: ${zlt.datasource.username}
-#      password: ${zlt.datasource.password}
+#      jdbc-url: jdbc:mysql://${thefronts.datasource.ip}:3306/logger-center?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false&zeroDateTimeBehavior=convertToNull&serverTimezone=Asia/Shanghai
+#      username: ${thefronts.datasource.username}
+#      password: ${thefronts.datasource.password}
